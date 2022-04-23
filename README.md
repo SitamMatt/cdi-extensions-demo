@@ -1,5 +1,23 @@
 # CDI Extensions Samples
 
+This repository contains examples of using CDI portable extensions
+
+### Links
+
+https://www.byteslounge.com/tutorials/java-ee-cdi-extension-example
+
+https://docs.jboss.org/weld/reference/latest/en-US/html/injection.html
+
+https://docs.jboss.org/weld/reference/latest/en-US/html/extend.html
+
+https://www.next-presso.com/2017/02/nobody-expects-the-cdi-portable-extensions/
+
+smallrye-config example usage - https://github.com/smallrye/smallrye-config/tree/main/cdi
+
+Also:
+
+https://eclipse-ee4j.github.io/cdi/2021/12/03/you-know-build-compatible-extensions.html
+
 ### Qualifiers
 
 Create annotation working as qualifier
