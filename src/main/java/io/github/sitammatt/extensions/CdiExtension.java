@@ -42,6 +42,7 @@ public class CdiExtension implements Extension {
             public void inject(X instance, CreationalContext<X> ctx){
                 it.inject(instance, ctx);
                 for(Field field : at.getJavaClass().getDeclaredFields()) {
+                    // square value will be injected into fields annotated with 'Square'
                     Square annotation = field.getAnnotation(Square.class);
                     if(annotation != null){
                         int key = annotation.value();
